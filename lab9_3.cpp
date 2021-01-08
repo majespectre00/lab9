@@ -19,8 +19,10 @@ int main (){
     double mean,sd;
     mean = sum/N;
     sd =sqrt((sumsquare/N)-pow(mean,2));
-    cout<<fixed<<setprecision(3);
     cout << "Number of data = "<<N<<endl;
+    cout<<setprecision(3);
     cout << "Mean = "<<mean<<endl;
     cout << "Standard deviation = "<<sd;
+    source.close();
+    return 0;
 }
